@@ -73,9 +73,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Installed Dependencies
 
 npm i --save @fortawesome/fontawesome-svg-core
+
 npm install --save @fortawesome/free-solid-svg-icons
+
 npm install --save @fortawesome/react-fontawesome
+
 npm i react-query axios
 
 npm i -g json-server
+
 json-server -w data/db.json -p 3500
