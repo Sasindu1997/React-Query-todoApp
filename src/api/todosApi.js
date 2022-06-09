@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const todosApi = axios.create({
-    baseURL : "http://localhost:3500";
+    baseURL : "http://localhost:3500"
 })
 
 export const getTodos = async () => {
@@ -18,7 +18,7 @@ export const updateTodo = async (todo) => {
 }
 
 export const deleteTodo = async ({id}) => {
-    return await todosApi.delete(`/todo/${id}`, id);
+    return await todosApi.delete(`/todos/${id}`, id);
 }
 
 export default todosApi;
